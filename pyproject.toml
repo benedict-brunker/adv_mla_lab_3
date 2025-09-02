@@ -6,10 +6,12 @@ authors = ["Benedict Brunker <benedictbrunker@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.11,<3.12"
 jupyterlab = "4.2.3"
 pandas = "2.2.2"
 scikit-learn = "1.5.1"
+ipykernel = "^6.30.1"
+draft = {path = "/home/bened/DataScience/draft", develop = true}
 
 
 [build-system]
