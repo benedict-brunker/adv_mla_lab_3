@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "adv-mla-lab-3"
+version = "0.1.0"
+description = "Model Serving Code-base"
+authors = ["Benedict Brunker <benedictbrunker@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
